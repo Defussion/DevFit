@@ -1,0 +1,31 @@
+altura,peso,edad,dias_entrenamiento,proposito,genero,nivel,rutina,ejercicio1,ejercicio2,ejercicio3,ejercicio4,ejercicio5,ejercicio6
+165,60,25,5,2,2,2,rutina 1,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+170,75,30,4,1,1,1,rutina 2,caminata,correr,saltos_soga,estocadas,burpees,abdominales
+180,85,40,6,3,2,3,rutina 3,press_banca,dominadas,sentadilla_bulgara,press_militar,remo_barra,curl_biceps
+160,55,28,3,2,2,1,rutina 4,plancha,lunges,zancadas,abdominales,escalador,saltos_tijera
+175,70,35,5,3,1,3,rutina 5,sentadillas,press_banca,dominadas,remo_barra,press_militar,curl_biceps
+168,63,27,4,1,2,2,rutina 6,caminata,correr,plancha,estocadas,saltos_tijera,abdominales
+170,68,33,5,2,1,2,rutina 7,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+165,59,26,4,3,2,1,rutina 8,caminata,correr,saltos_soga,estocadas,burpees,abdominales
+180,80,38,6,1,1,3,rutina 9,press_banca,dominadas,sentadilla_bulgara,press_militar,remo_barra,curl_biceps
+170,67,32,5,2,2,2,rutina 10,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+165,58,25,4,3,1,1,rutina 11,caminata,correr,saltos_soga,estocadas,burpees,abdominales
+175,75,34,6,1,2,3,rutina 12,press_banca,dominadas,sentadilla_bulgara,press_militar,remo_barra,curl_biceps
+172,70,31,5,2,2,2,rutina13,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+168,65,29,4,3,1,2,rutina14,caminata,correr,plancha,estocadas,saltos_tijera,abdominales
+178,80,36,6,1,1,3,rutina15,press_banca,dominadas,sentadilla_bulgara,press_militar,remo_barra,curl_biceps
+166,63,27,4,2,2,1,rutina16,plancha,lunges,zancadas,abdominales,escalador,saltos_tijera
+173,72,33,5,3,1,3,rutina17,sentadillas,press_banca,dominadas,remo_barra,press_militar,curl_biceps
+170,68,30,4,2,2,2,rutina18,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+165,59,26,4,3,1,1,rutina19,caminata,correr,saltos_soga,estocadas,burpees,abdominales
+176,76,35,6,1,1,3,rutina20,press_banca,dominadas,sentadilla_bulgara,press_militar,remo_barra,curl_biceps
+165,57,24,3,2,2,1,rutina21,plancha,lunges,zancadas,abdominales,escalador,saltos_tijera
+170,70,32,4,3,1,2,rutina22,caminata,correr,plancha,estocadas,saltos_tijera,abdominales
+175,78,36,5,2,1,3,rutina23,sentadillas,press_banca,dominadas,remo_barra,press_militar,curl_biceps
+170,67,30,4,3,2,2,rutina24,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+165,58,26,4,1,1,1,rutina25,caminata,correr,saltos_soga,estocadas,burpees,abdominales
+170,73,33,5,2,2,2,rutina26,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+165,60,27,4,3,1,2,rutina27,caminata,correr,plancha,estocadas,saltos_tijera,abdominales
+178,82,38,6,1,2,3,rutina28,press_banca,dominadas,sentadilla_bulgara,press_militar,remo_barra,curl_biceps
+172,68,31,5,2,1,2,rutina29,sentadillas,flexiones,plancha,zancadas,abdominales,escalador
+166,59,26,4,3,2,1,rutina30,caminata,correr,saltos_soga,estocadas,burpees,abdominales

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="uft-8">
+        <meta name="vieport" content="widht-device-widht,initial-scale=1.0">
+        <title>Generador de rutinas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d9e3d8cd36.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <style>
+        body{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+    </style>
+    <h1>Generador de Rutinas de Ejercicio</h1>
+    <form method="POST" action="/">
+        <label for="altura">Altura:</label>
+        <input type="number" id="altura" name="altura" required><br>
+
+        <label for="peso">Peso:</label>
+        <input type="number" id="peso" name="peso" required><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br>
+
+        <label for="dias_entrenamiento">Días para entrenar:</label>
+        <input type="number" id="dias_entrenamiento" name="dias_entrenamiento" required><br>
+
+        <label for="proposito">Propósito:</label>
+        <select id="proposito" name="proposito" required>
+        <option value="1">Tonificar</option>
+        <option value="2">Perder peso</option>
+        <option value="3">Aumentar masa muscular</option>
+        </select><br>
+
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero" required>
+          <option value="1">Masculino</option>
+          <option value="2">Femenino</option>
+        </select><br>
+        
+        <label for="nivel">Nivel:</label>
+        <select id="nivel" name="nivel" required>
+          <option value="1">Principiante</option>
+          <option value="2">Intermedio</option>
+          <option value="3">Avanzado</option>
+        </select><br>
+        
+
+        <input type="submit" value="Generar Rutina">
+    </form>
+</body>
+</html>
+
