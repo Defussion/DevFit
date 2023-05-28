@@ -2,59 +2,115 @@
 <html>
 
 <head>
-    <meta charset="uft-8">
-        <meta name="vieport" content="widht-device-widht,initial-scale=1.0">
-        <title>Generador de rutinas</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/d9e3d8cd36.js" crossorigin="anonymous"></script>
-    
-    
+  <meta charset="uft-8">
+  <meta name="vieport" content="widht-device-widht,initial-scale=1.0">
+  <title>Generador de rutinas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d9e3d8cd36.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 100;
+    }
+
+    .bgImage {
+      opacity: 0.4;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: auto;
+    }
+
+    .routineContent {
+      position: relative;
+    }
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 100;
+      color: #0f2b10;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: rgb(39, 39, 39);
+      margin-top: 40px;
+    }
+
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 45px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+
 </head>
+
 <body>
-    <style>
-        body{
-            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            }
-    </style>
+  <img class="bgImage"
+    src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1375&q=80"
+    alt="">
+  <div class="routineContent">
     <h1>Generador de Rutinas de Ejercicio</h1>
     <form method="POST" action="/">
-        <label for="altura">Altura:</label>
-        <input type="number" id="altura" name="altura" required><br>
-
-        <label for="peso">Peso:</label>
-        <input type="number" id="peso" name="peso" required><br>
-
-        <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" required><br>
-
-        <label for="dias_entrenamiento">Días para entrenar:</label>
-        <input type="number" id="dias_entrenamiento" name="dias_entrenamiento" required><br>
-
-        <label for="proposito">Propósito:</label>
-        <select id="proposito" name="proposito" required>
+      <label for="altura">Altura (m):</label>
+      <input type="number" id="altura" name="altura" required><br>
+      <label for="peso">Peso (kg):</label>
+      <input type="number" id="peso" name="peso" required><br>
+      <label for="edad">Edad (años):</label>
+      <input type="number" id="edad" name="edad" required><br>
+      <label for="dias_entrenamiento">Días para entrenar:</label>
+      <input type="number" id="dias_entrenamiento" name="dias_entrenamiento" required><br>
+      <label for="proposito">Propósito:</label>
+      <select id="proposito" name="proposito" required>
         <option value="1">Tonificar</option>
         <option value="2">Perder peso</option>
         <option value="3">Aumentar masa muscular</option>
-        </select><br>
-
-        <label for="genero">Género:</label>
-        <select id="genero" name="genero" required>
-          <option value="1">Masculino</option>
-          <option value="2">Femenino</option>
-        </select><br>
-        
-        <label for="nivel">Nivel:</label>
-        <select id="nivel" name="nivel" required>
-          <option value="1">Principiante</option>
-          <option value="2">Intermedio</option>
-          <option value="3">Avanzado</option>
-        </select><br>
-        
-
-        <input type="submit" value="Generar Rutina">
+      </select><br>
+      <label for="genero">Género:</label>
+      <select id="genero" name="genero" required>
+        <option value="1">Masculino</option>
+        <option value="2">Femenino</option>
+      </select><br>
+      <label for="nivel">Nivel:</label>
+      <select id="nivel" name="nivel" required>
+        <option value="1">Principiante</option>
+        <option value="2">Intermedio</option>
+        <option value="3">Avanzado</option>
+      </select><br>
+      <input type="submit" value="Generar Rutina">
     </form>
+  </div>
 </body>
-</html>
 
+</html>

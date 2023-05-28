@@ -1,23 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Resultados de la Rutina de Ejercicio</title>
-</head>
-<body>
-    <h1>Resultados de la Rutina de Ejercicio</h1>
-    <p>Rutina: {{ rutina }}</p>
-    <h2>Ejercicios:</h2>
-    <ul>
-        <li>{{ ejercicios[0] }}</li>
-        <li>{{ ejercicios[1] }}</li>
-        <li>{{ ejercicios[2] }}</li>
-        <li>{{ ejercicios[3] }}</li>
-        <li>{{ ejercicios[4] }}</li>
-        <li>{{ ejercicios[5] }}</li>
 
-        <p> Te recomendamos realizar los ejercicios de peso aproximadamente
-            3 series x 12 repeticiones.
-        </p>
-    </ul>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9e3d8cd36.js" crossorigin="anonymous"></script>
+    <title>Resultados de la Rutina de Ejercicio</title>
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        .bgImage {
+            opacity: 0.4;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .routineResult {
+            position: relative;
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 100;
+            color: #0f2b10;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-weight: 100;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+            font-weight: 100;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            font-weight: 100;
+            margin-bottom: 50px;
+        }
+
+        li {
+            margin-bottom: 30px;
+            font-weight: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="bgImage"
+        src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1375&q=80"
+        alt="">
+    <div class="routineResult">
+        <h1>Resultados de la Rutina de Ejercicio</h1>
+        <p>Rutina: {{ rutina }}</p>
+        <h2>Ejercicios:</h2>
+        <ul>
+            <li>{{ ejercicios[0] }}</li>
+            <li>{{ ejercicios[1] }}</li>
+            <li>{{ ejercicios[2] }}</li>
+            <li>{{ ejercicios[3] }}</li>
+            <li>{{ ejercicios[4] }}</li>
+            <li>{{ ejercicios[5] }}</li>
+        </ul>
+        <p>Te recomendamos realizar los ejercicios de peso aproximadamente 3 series x 12 repeticiones.</p>
 </body>
+
 </html>
